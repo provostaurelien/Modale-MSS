@@ -1,0 +1,82 @@
+h1 {
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+#buttonMSS.connecte {
+    background-color: #cef5b7; /* Couleur de fond orange */
+    color: #4d663f; /* Couleur du texte */
+}
+
+#buttonMSS {
+    display: flex;
+    align-items: center;
+    background-color: #ffcfa1; /* Couleur de fond orange */
+    color: rgb(223, 145, 2); /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+}
+
+
+
+#buttonMSS img {
+    margin-right: 8px; /* Espacement entre l'image et le texte */
+    border-top-left-radius: 5px; /* Coins arrondis */
+    border-bottom-left-radius: 5px;
+    width: 20px; /* Largeur de l'image */
+    height: 20px; /* Hauteur de l'image */
+    padding: 10px;
+    background-color: white;
+}
+/* Styles pour la modale */
+.modal.visible {
+    display: flex;
+  }
+
+.modal {
+    display: none; /* Masquer la modale par défaut, à passer en flex pour l'affichage */
+    position: absolute; /* Positionner la modale de manière absolue */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    width: 100%; /* Largeur pleine */
+}
+
+.modal-window {
+    background-color: white; /* Fond de la fenêtre modale */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 8px; /* Coins arrondis */
+    max-width:310px; /* Largeur maximale de la modale */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre */
+    position: absolute; /* Positionner de manière absolue */
+    left: calc(50% - 200px); /* Centrer horizontalement par rapport à l'écran */
+    top: calc(100% + 10px); /* Positionner juste en dessous du bouton avec un petit espacement */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between; /* Espacement entre les boutons */
+    margin-top: 30px; /*marge entre le texte et les boutons*/
+}
+
+#buttonAnnuler {
+    display: flex;
+    background-color: rgb(238, 238, 238); 
+    color: grey; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    Padding : 10px 40px; 
+    font-size: 16px; /* Taille de la police */
+}
+
+#buttonConnecter {
+    display: flex;
+    background-color: #2e2e2e; 
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    Padding : 10px 20px;
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+}
+
+

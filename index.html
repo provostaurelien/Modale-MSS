@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoutonMSS</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" type="module"></script>
+</head>
+<body>
+ <!--code bouton déconnecté-->   
+    <button id = "buttonMSS"  > <!--rajouter la  class = "connecte" pour passage en vert-->
+        <img src="./MSS.svg" alt="Icône">
+        Déconnecté
+      </button>
+<!--code pour la modale-->
+<aside id="modal" class="modal">
+    <div class="modal-window">
+        <h1> Vous êtes déconnecté de MSSanté </h1>
+          <p>  Pour bénéficier des fonctionnalités liées à MSSanté merci de vous connecter</p>
+    <div class="buttons">
+        <button id="buttonAnnuler">
+            Annuler
+        </button>
+        <button id="buttonConnecter">
+            Se connecter
+        </button>
+    </div>
+    </div>
+    </aside>
+</body>
+</html>
